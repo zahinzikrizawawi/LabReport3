@@ -19,7 +19,7 @@ RULES = [
             "decision": "AWARD_FULL",
             "reason": "Excellent academic & co-curricular performance, with acceptable need"
         }
-    },s
+    },
     {
         "name": "Good candidate - partial scholarship",
         "priority": 80,
@@ -108,7 +108,7 @@ def run_rule_engine(applicant):
 #   STREAMLIT APPLICATION UI
 # ======================================================
 
-st.title("Scholarship Advisory – Rule-Based System")
+st.title("🎓 Scholarship Advisory – Rule-Based System")
 st.write("Enter applicant details:")
 
 cgpa = st.number_input("CGPA", 0.0, 4.0, step=0.01)
@@ -130,7 +130,7 @@ if st.button("Evaluate"):
 
     rule_name, decision, reason = run_rule_engine(applicant_data)
 
-    st.subheader("Evaluation Result")
+    st.subheader("📌 Evaluation Result")
     st.write(f"**Rule matched:** {rule_name}")
     st.write(f"**Decision:** {decision}")
     st.write(f"**Reason:** {reason}")
