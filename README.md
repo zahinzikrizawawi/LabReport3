@@ -9,7 +9,7 @@ This project is a **Rule-Based Expert System** developed as part of the **BSD351
 The application assists a university scholarship committee by automating the initial screening process. It uses a **Forward Chaining** inference engine to evaluate applicants based on academic performance, financial need, and co-curricular involvement.
 
 ## 🚀 Live Demo
-**[Click here to view the deployed App](PASTE_YOUR_STREAMLIT_LINK_HERE)**
+**[Click here to view the deployed App](https://labreport3.streamlit.app/)**
 
 ## 🛠️ Features
 - **Interactive UI:** Built with [Streamlit](https://streamlit.io/) for easy data entry.
